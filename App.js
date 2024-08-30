@@ -44,7 +44,7 @@ const App = () => {
       setConvertedAmount("");
     }
   }, [amount, exchangeRate]);
-
+ 
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.title}>Currency Converter</Text>
