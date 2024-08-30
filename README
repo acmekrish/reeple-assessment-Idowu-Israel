@@ -1,0 +1,36 @@
+# Reeple Currency Converter
+
+## Introduction
+This is a React Native application that allows users to convert between multiple currencies using live exchange rates. The app features a clean, user-friendly interface and includes robust error handling.
+
+## Features
+- Select both source and target currencies from a list of 10 supported currencies.
+- Fetch and display real-time exchange rates using a third-party API.
+- Convert amounts in real-time as you type.
+- Handle API errors gracefully with user-friendly messages.
+
+## Supported Currencies
+- USD (United States Dollar)
+- EUR (Euro)
+- GBP (British Pound)
+- CAD (Canadian Dollar)
+- NGN (Nigerian Naira)
+- JPY (Japanese Yen)
+- AUD (Australian Dollar)
+- CNY (Chinese Yuan)
+- INR (Indian Rupee)
+- ZAR (South African Rand)
+
+## Setup Instructions
+
+### Prerequisites
+- Node.js and npm installed
+- React Native CLI installed
+- Android Studio for Android development
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/acmekrish/reeple-currency.git
+   cd reeple-currency
